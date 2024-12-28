@@ -5,3 +5,11 @@
  * output: boolean
  * validate input: throw TypeError with message "expected number but received <type-of-argument>" if inputs are not numbers
  */
+function isAdditionGreaterThanFifty(numbersum1, numbersum2){
+    const  resultsum1 = (numbersum1 + numbersum2);
+    const resultsum2 =  resultsum1 >= 50;
+
+    return resultsum2;
+}
+
+export default isAdditionGreaterThanFifty;

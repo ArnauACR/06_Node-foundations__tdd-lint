@@ -4,3 +4,10 @@
  * output: number
  * validate input: throw TypeError with message "expected number but received <type-of-argument>" if input is not a number
  */
+function generateRandomNumberInRange(limit){
+    const randomnumber = Math.floor(Math.random() * (limit + 1));
+
+    return randomnumber;
+}
+
+export default generateRandomNumberInRange;
