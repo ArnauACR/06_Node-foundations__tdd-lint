@@ -4,3 +4,10 @@
  * output: number
  * validate input: throw TypeError with message "expected string but received <type-of-argument>" if input is not a string
  */
+function getTotalWordsFromString(userstring){
+    const resultnumberwords = userstring.split(" ");
+
+    return resultnumberwords;
+}
+
+export default getTotalWordsFromString;
